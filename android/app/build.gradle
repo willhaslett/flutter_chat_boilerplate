@@ -1,3 +1,5 @@
+apply plugin: 'com.google.gms.google-services'
+
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file('local.properties')
 if (localPropertiesFile.exists()) {
@@ -38,8 +40,8 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.willhaslett.chat_boilerplate.chat_boilerplate"
-        minSdkVersion 16
+        applicationId "com.willhaslett.chat_boilerplate"
+        minSdkVersion 24
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

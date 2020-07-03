@@ -1,4 +1,4 @@
-package com.willhaslett.chat_boilerplate.chat_boilerplate
+package com.willhaslett.chat_boilerplate
 
 import io.flutter.embedding.android.FlutterActivity
 
